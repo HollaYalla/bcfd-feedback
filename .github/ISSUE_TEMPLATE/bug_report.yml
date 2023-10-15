@@ -59,7 +59,7 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: server
+    id: browser
     attributes:
       label: Browser
       description: What Browser are you using?
@@ -74,7 +74,7 @@ body:
     validations:
       required: true   
   - type: dropdown
-    id: server
+    id: application
     attributes:
       label: Application
       description: What application did this issue occur in?
