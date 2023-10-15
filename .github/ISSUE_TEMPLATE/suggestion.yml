@@ -1,11 +1,11 @@
 name: Suggestion
-description: When creating a suggestion, consider how it effects RP and the economy.
+description: When creating a suggestion, consider how it will benefit the BCFD or make any application look better
 labels: ["suggestion"]
 title: "Suggestion - "
 body:
   - type: markdown
     attributes:
-      value: "Before opening a new issue, please search existing issues:  https://github.com/InZidiuZ/op-framework-issue-tracker/issues"
+      value: "Before opening a new issue, please search existing issues:  https://github.com/HollaYalla/bcfd-feedback/issues"
   - type: dropdown
     id: assurance
     attributes:
@@ -26,6 +26,16 @@ body:
     id: reason
     attributes:
       label: Reason
-      description: Why would your suggestion be a good change to the framework?
+      description: Why would your suggestion be a good change to the BCFD applications?
     validations:
       required: true
+  - type: dropdown
+    id: server
+    attributes:
+      label: Application
+      description: What application did this issue occur in?
+      multiple: true
+      options:
+      - Website
+    validations:
+      required: true 
