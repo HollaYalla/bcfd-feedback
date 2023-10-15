@@ -29,7 +29,7 @@ body:
       description: Why would your suggestion be a good change to the BCFD applications?
     validations:
       required: true
-        - type: dropdown
+  - type: dropdown
     id: server
     attributes:
       label: Application
