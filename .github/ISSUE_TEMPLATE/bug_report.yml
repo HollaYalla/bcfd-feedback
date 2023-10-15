@@ -58,13 +58,21 @@ body:
       description: Provide any screenshots and/or videos demonstrating the issue being experienced.
     validations:
       required: false
-  - type: input
-    id: game
+  - type: dropdown
+    id: server
     attributes:
-      label: Broswer
+      label: Browser
       description: What Browser are you using?
+      multiple: true
+      options:
+      - Google Chrome
+      - Microsoft Edge
+      - Firefox
+      - Safari
+      - Internet Explorer
+      - Opera GX
     validations:
-      required: false   
+      required: true   
   - type: dropdown
     id: server
     attributes:
