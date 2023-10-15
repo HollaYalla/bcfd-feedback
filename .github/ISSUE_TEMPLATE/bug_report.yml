@@ -1,11 +1,11 @@
 name: Bug Report
-description: A bug has been found in OPFW
+description: A bug has been found on any BCFD application
 labels: ["bug"]
 title: "Bug report - "
 body:
   - type: markdown
     attributes:
-      value: "Before opening a new issue, please search existing issues:  https://github.com/InZidiuZ/op-framework-issue-tracker/issues"
+      value: "Before opening a new issue, please search existing issues:  https://github.com/HollaYalla/bcfd-feedback/issues"
   - type: dropdown
     id: assurance
     attributes:
@@ -61,33 +61,17 @@ body:
   - type: input
     id: game
     attributes:
-      label: Game Resolution
-      description: What is your games resolution?
+      label: Broswer
+      description: What Browser are you using?
     validations:
-      required: false
-  - type: textarea
-    id: playerdata
-    attributes:
-      label: Player Data
-      description: Write '/info' whilst in-game and provide a screenshot of the information you are prompted.
-    validations:
-      required: false      
+      required: false   
   - type: dropdown
     id: server
     attributes:
-      label: Server
-      description: What server/community did this issue occur in?
+      label: Application
+      description: What application did this issue occur in?
       multiple: true
       options:
-      - OP-FW Test Server (c2s1.op-framework.com)
-      - International (c3s1.op-framework.com)
-      - Latin America (c4s1.op-framework.com)
-      - Italy (c5s1.op-framework.com)
-      - Poland (c6s1.op-framework.com)
-      - India (c8s1.op-framework.com)
-      - Bangladesh (c10s1.op-framework.com)
-      - Nepal (c13s1.op-framework.com)
-      - South Korea (c15s1.op-framework.com)
-      - Estonia (c16s1.op-framework.com)
+      - Website
     validations:
       required: true          
