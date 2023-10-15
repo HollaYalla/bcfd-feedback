@@ -82,4 +82,14 @@ body:
       options:
       - Website
     validations:
+      required: true   
+  - type: dropdown
+    id: application
+    attributes:
+      label: Application
+      description: What application did this issue occur in?
+      multiple: true
+      options:
+      - Website
+    validations:
       required: true
