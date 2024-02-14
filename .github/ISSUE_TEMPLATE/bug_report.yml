@@ -1,5 +1,5 @@
 name: Bug Report
-description: A bug has been found on any BCFD application
+description: A bug has been found on the BCFD Related Application
 labels: ["bug"]
 title: "Bug report - "
 body:
@@ -71,16 +71,6 @@ body:
       - Safari
       - Internet Explorer
       - Opera GX
-    validations:
-      required: true   
-  - type: dropdown
-    id: application
-    attributes:
-      label: Application
-      description: What application did this issue occur in?
-      multiple: true
-      options:
-      - Website
     validations:
       required: true   
   - type: dropdown
