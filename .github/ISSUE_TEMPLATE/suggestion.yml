@@ -33,7 +33,7 @@ body:
     id: server
     attributes:
       label: Application
-      description: What application did this issue occur in?
+      description: What application is this suggestion for?
       multiple: true
       options:
       - Website
